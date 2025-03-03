@@ -18,7 +18,7 @@ class SideBarController extends Controller
         $request->validate([
             'name' => 'required',
             'description' => 'required',
-            'email' => 'required|email|unique:side_bars',
+            'email' => 'required|email',
             'whatsapp' => 'required',
             'instagram' => 'required',
             'telegram' => 'required',
